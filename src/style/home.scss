@@ -1,0 +1,42 @@
+.top-half {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.d-block {
+    box-shadow: 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
+
+.bottom-half {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 1300px;
+    background-color: #212529;
+    .bg-dark {
+        border-radius: 70px;
+    }
+    .product-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+
+    }
+
+    .card-title {
+        font-size: 7rem;
+        font-family: 'Bungee Inline', cursive;
+        color: #212529;
+    }
+        
+}
+
+@media (max-width: 500px) {
+    .bottom-half .product-image {
+        width: 80%;
+    }
+}

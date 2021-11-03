@@ -1,0 +1,29 @@
+.about-section {
+    height: 400px;
+    background-color: #212529;
+    .card-img-top {
+        height: 320px;
+        padding: none;
+        .card-body p {
+            text-align: center;
+        }
+    }
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background-color: #212529;
+    height: 800px;
+    .card-container {
+        padding-top: 90px;
+        .card {
+            border-radius: 1rem;
+            border: none;
+            .card-img-top {
+                border-radius: 1rem;
+            }
+        }
+    }
+}
