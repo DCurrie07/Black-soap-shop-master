@@ -23,7 +23,7 @@ export default class App extends Component {
       <React.Fragment>
         <Navbars />
         <Switch>
-          <Route exact path="/" component={ProductList} />
+          <Route exact path="/" component={Home} />
           <Route path="/details" component={Details} />
           <Route path="/home" component={Home} />
           <Route path="/Auth" component={Auth} />
