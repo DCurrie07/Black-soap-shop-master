@@ -25,11 +25,10 @@ export default class App extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/details" component={Details} />
-          <Route path="/home" component={Home} />
           <Route path="/Auth" component={Auth} />
-          <Route path="/cart" component={Cart} />
-          <Route path="/account" component={Account} />
-          <Route path="/about" component={About} />
+          <Route path="/Cart" component={Cart} />
+          <Route path="/Account" component={Account} />
+          <Route path="/About" component={About} />
           <Route path="/BlackSoap" component={BlackSoap} />
           <Route path="/SheaButter" component={SheaButter} />
           <Route path="/EssentialOil" component={EssentialOil} />
